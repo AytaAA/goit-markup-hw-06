@@ -5,6 +5,7 @@ html {
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
+    font-weight: normal;
 }
 
 *,
@@ -131,8 +132,6 @@ focus {
 .site-nav .link {
     display: block;
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -174,8 +173,6 @@ focus {
 }
 
 .upper-contacts-item {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -220,8 +217,6 @@ focus {
     padding-left: auto;
     padding-right: auto;
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -242,8 +237,6 @@ focus {
     background: var(--hover-button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -355,8 +348,7 @@ focus {
 }
 .desctitle {
     margin-bottom: 10px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
+
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -366,9 +358,6 @@ focus {
 }
 
 .desctext {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -381,8 +370,6 @@ focus {
 
 .functitle {
     margin-bottom: 50px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -449,8 +436,6 @@ focus {
     margin: 0;
     margin-bottom: 50px;
     text-align: center;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -471,8 +456,6 @@ focus {
 .teamitem {
     margin-top: 30px;
     margin-bottom: 10px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -483,9 +466,6 @@ focus {
 .itemposition {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -538,8 +518,6 @@ focus {
     margin: 0;
     margin-bottom: 50px;
     text-align: center;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -632,9 +610,7 @@ focus {
     margin-bottom: 9px;
 }
 .address {
-    font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -644,9 +620,6 @@ focus {
 .mail,
 .tel {
     margin-bottom: 9px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -667,9 +640,8 @@ focus {
 .join-us-header {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     margin-bottom: 20px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -683,7 +655,7 @@ focus {
     flex-wrap: wrap;
     margin: 0 auto;
     align-items: center;
-    padding-inline-start: 0;
+    padding-left: 0;
 }
 .footer-social-icons-link {
     display: flex;
@@ -737,8 +709,6 @@ focus {
 .projectbutton {
     padding: 6px 22px;
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -788,7 +758,6 @@ focus {
     width: 100%;
     height: 100%;
     background: rgba(33, 150, 243, 0.9);
-    font-weight: normal;
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
@@ -825,8 +794,6 @@ focus {
     margin-bottom: 4px;
     margin-right: auto;
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -840,10 +807,6 @@ focus {
     margin-bottom: 20;
     margin-right: auto;
     text-align: left;
-
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -855,4 +818,73 @@ focus {
     background-color: var(--hover-button-color);
     color: var(--white);
     cursor: pointer;
+}
+
+.subscribe-to-us {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.subscr-mail {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 1.25;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--hero-background-color);
+    border-radius: 4px;
+}
+
+.subscr-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    position: relative;
+    display: inline-flex;
+    height: 50px;
+    min-width: 200px;
+    margin: 0 auto;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18.7;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    color: var(--white);
+    background: var(--hover-button-color);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscr-btn:hover {
+    background: var(--white);
+    color: var(--hover-button-color);
+}
+
+/**.subscr-btn:hover .subscr-btn-arrow-svg {
+    fill: var(--hover-button-color);**/
+
+.subscr-btn-arrow-svg {
+    position: absolute;
+    top: 13;
+    right: 13;
+
+    height: 24px;
+    fill: var(--white);
 }
