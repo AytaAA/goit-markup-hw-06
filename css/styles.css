@@ -841,10 +841,11 @@ focus {
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    background-color: var(--hero-background-color);
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: var(--hero-background-color);
+    box-sizing: border-box;
     border-radius: 4px;
 }
 
@@ -860,7 +861,7 @@ focus {
 
     font-weight: bold;
     font-size: 16px;
-    line-height: 18.7;
+    line-height: 1.87;
     align-items: center;
     letter-spacing: 0.06em;
 
@@ -877,13 +878,14 @@ focus {
     color: var(--hover-button-color);
 }
 
-/**.subscr-btn:hover .subscr-btn-arrow-svg {
-    fill: var(--hover-button-color);**/
+.subscr-btn:hover .subscr-btn-arrow-svg {
+    fill: var(--hover-button-color);
+}
 
 .subscr-btn-arrow-svg {
     position: absolute;
-    top: 13;
-    right: 13;
+    top: 13px;
+    left: 10px;
 
     height: 24px;
     fill: var(--white);
