@@ -61,44 +61,45 @@
                                 </svg>
                             </button>
                             <div class="fieldset">
-                                <h2 class="service-header">Оставьте свои данные, мы вам перезвоним</h2>
+                                <p class="service-header">Оставьте свои данные, мы вам перезвоним</p>
                                 <form class="service-order">
                                     <div class="form-field">
-                                        <label class="field-label name-label" for="name">Имя</label>
-                                        <svg class="service-order-svg form-name-svg">
+                                        <label class="field-label" for="name">Имя</label>
+
+                                        <input type="text" name="name" id="name" class="field" />
+                                        <svg class="service-order-svg">
                                             <use href="./images/sprite.svg#person-black-1"></use>
                                         </svg>
-                                        <input type="text" name="name" id="name" class="field name-field" />
                                     </div>
                                     <div class="form-field">
                                         <label class="field-label" for="tel">Телефон</label>
-                                        <svg class="service-order-svg form-tel-svg">
+                                        <input type="tel" name="tel" id="tel" class="field" />
+                                        <svg class="service-order-svg">
                                             <use href="./images/sprite.svg#phone-black-1"></use>
                                         </svg>
-                                        <input type="tel" name="tel" id="tel" class="field tel-field" />
                                     </div>
+
                                     <div class="form-field">
                                         <label class="field-label">Почта</label>
-                                        <svg class="service-order-svg form-mail-svg">
+                                        <input type="mail" name="mail" id="mail" class="field" />
+                                        <svg class="service-order-svg">
                                             <use href="./images/sprite.svg#envelope2-1"></use>
                                         </svg>
-                                        <input type="mail" name="mail" id="mail" class="field mail-field" />
                                     </div>
+
                                     <div class="form-field">
-                                        <label class="field-label comment-label">Комментарий</label>
+                                        <label class="field-label">Комментарий</label>
                                         <textarea
+                                            class="text-area"
                                             name="comment"
                                             id="comment"
-                                            cols="30"
-                                            rows="10"
+                                            rows="6"
                                             placeholder="Введите текст"
                                         ></textarea>
                                     </div>
-                                    <div class="form-field">
-                                        <label class="field-label"
-                                            ><input type="checkbox" />Соглашаюсь с рассылкой и принимаю Условия
-                                            договора</label
-                                        >
+                                    <div class="form-field checkbox-text">
+                                        <input type="checkbox" />Соглашаюсь с рассылкой и принимаю
+                                        <a href="#" class="conditions-link"> Условия договора </a>
                                     </div>
 
                                     <button class="service-order-btn" type="submit">Отправить</button>
