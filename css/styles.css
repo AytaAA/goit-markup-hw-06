@@ -280,7 +280,7 @@ focus {
     width: 528px;
     height: 581px;
     background-color: var(--white);
-    padding: 80px 40px;
+    padding: 40px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -311,6 +311,86 @@ focus {
 
 .btn-close:hover .close-btn-svg {
     fill: var(--hover-button-color);
+}
+
+.service-header {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.field {
+    margin-top: 4px;
+    width: 100%;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.field-label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color);
+}
+.service-order-svg {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    fill: var(--main-text-color);
+}
+
+textarea {
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    margin-top: 4px;
+    resize: none;
+    width: 448px;
+    height: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.service-order-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 56px;
+    position: relative;
+    display: inline-flex;
+    height: 50px;
+    min-width: 200px;
+    margin: 0 auto;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--white);
+    background: var(--hover-button-color);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description {
@@ -903,9 +983,9 @@ focus {
 .subscr-btn-arrow-svg {
     position: absolute;
     top: 13px;
-    left: 10px;
-
+    right: 28px;
     height: 24px;
+    width: 24px;
     fill: var(--white);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

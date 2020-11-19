@@ -60,7 +60,49 @@
                                     <use href="./images/sprite.svg#btnclose"></use>
                                 </svg>
                             </button>
-                            <form action=""></form>
+                            <div class="fieldset">
+                                <form class="service-order">
+                                    <div class="form-field">
+                                        <h2 class="service-header">Оставьте свои данные, мы вам перезвоним</h2>
+                                        <label class="field-label name-label" for="name">Имя</label>
+                                        <svg class="service-order-svg form-name-svg">
+                                            <use href="./images/sprite.svg#person-black-1"></use>
+                                        </svg>
+                                        <input type="text" name="name" id="name" class="field name-field" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label class="field-label" for="tel">Телефон</label>
+                                        <svg class="service-order-svg form-tel-svg">
+                                            <use href="./images/sprite.svg#phone-black-1"></use>
+                                        </svg>
+                                        <input type="tel" name="tel" id="tel" class="field tel-field" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label class="field-label">Почта</label>
+                                        <svg class="service-order-svg form-mail-svg">
+                                            <use href="./images/sprite.svg#envelope2-1"></use>
+                                        </svg>
+                                        <input type="mail" name="mail" id="mail" class="field mail-field" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label class="field-label comment-label">Комментарий</label>
+                                        <textarea
+                                            name="comment"
+                                            id="comment"
+                                            cols="30"
+                                            rows="10"
+                                            placeholder="Введите текст"
+                                        ></textarea>
+                                    </div>
+                                    <div class="form-field">
+                                        <label class="field-label"
+                                            ><input type="checkbox" />Соглашаюсь с рассылкой и принимаю Условия
+                                            договора</label
+                                        >
+                                        <button class="service-order-btn" type="submit">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
