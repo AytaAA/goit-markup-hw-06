@@ -447,6 +447,7 @@ focus {
     background-size: contain;
     background-origin: content-box;
     background-repeat: no-repeat;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy {
@@ -461,6 +462,7 @@ focus {
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: var(--hover-button-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service-order-btn {
     position: relative;
